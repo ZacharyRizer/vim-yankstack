@@ -190,8 +190,8 @@ if !exists('g:yankstack_map_keys') || g:yankstack_map_keys
   nmap <M-p> <Plug>yankstack_substitute_older_paste
   xmap <M-p> <Plug>yankstack_substitute_older_paste
   imap <M-p> <Plug>yankstack_substitute_older_paste
-  nmap <M-P> <Plug>yankstack_substitute_newer_paste
-  xmap <M-P> <Plug>yankstack_substitute_newer_paste
-  imap <M-P> <Plug>yankstack_substitute_newer_paste
+  nmap <M-n> <Plug>yankstack_substitute_newer_paste
+  xmap <M-n> <Plug>yankstack_substitute_newer_paste
+  imap <M-n> <Plug>yankstack_substitute_newer_paste
 endif
 
